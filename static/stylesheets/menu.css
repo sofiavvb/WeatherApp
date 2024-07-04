@@ -1,0 +1,35 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body{
+    background-color: rgb(91, 114, 172);
+    background: linear-gradient(to right, #4872c0, #18448f)
+}
+
+#menu {
+
+    width: 700px;
+    height: 600px;
+    background-color: rgb(253, 250, 245);
+    display: flex;
+    margin:auto;
+    margin-top: 400px;
+    justify-content: center;
+    border-radius: 87px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+footer {
+    color: rgb(253, 250, 245);
+    font-weight: 520;
+    margin-top: 360px;
+    text-align: center;
+}

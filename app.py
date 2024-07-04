@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/menu', '/', methods=['GET', 'POST'])
 def menu():
     #Digitar nome da cidade
-    #clicar botao que chama a função get_weather_info e redireciona para a página de resultados
+    #clicar botao: chamar função get_weather_info e redireciona para a página de resultados
     return render_template("menu.html")
 
 @app.route('/result', methods=['GET', 'POST'])
