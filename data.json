@@ -1,0 +1,44 @@
+[
+    {
+        "city": "Campinas",
+        "weather condition": "céu limpo",
+        "temperature": 24.89,
+        "humidity": 47,
+        "date": "2024-07-02 16:35:38"
+    },
+    {
+        "city": "Sao Paulo",
+        "weather condition": "céu limpo",
+        "temperature": 23.95,
+        "humidity": 46,
+        "date": "2024-07-02 16:36:02"
+    },
+    {
+        "city": "Sao Paulo",
+        "weather condition": "céu limpo",
+        "temperature": 23.11,
+        "humidity": 52,
+        "date": "2024-07-02 16:49:05"
+    },
+    {
+        "city": "Orlando",
+        "weather condition": "algumas nuvens",
+        "temperature": 34.36,
+        "humidity": 54,
+        "date": "2024-07-02 16:51:48"
+    },
+    {
+        "city": "Los Angeles",
+        "weather condition": "céu limpo",
+        "temperature": 27.62,
+        "humidity": 55,
+        "date": "2024-07-02 16:52:28"
+    },
+    {
+        "city": "New York",
+        "weather condition": "céu limpo",
+        "temperature": 28.68,
+        "humidity": 34,
+        "date": "2024-07-02 16:53:14"
+    }
+]
