@@ -1,35 +1,103 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
 
 body{
-    background-color: rgb(91, 114, 172);
-    background: linear-gradient(to right, #4872c0, #18448f)
+    background-color: #07699bec;
 }
 
-#menu {
+input{
+    all: unset;
+}
 
-    width: 700px;
-    height: 600px;
-    background-color: rgb(253, 250, 245);
+#menu{
+    padding: 50px 20px;
+    border-radius: 8px;
+    max-width: 320px;
+    background-color: rgb(252, 248, 242);
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#logo {
+    width: 68px;
+    height: auto;
+    border-radius: 8px; 
+}
+
+.initial header{
+    padding: 20px;
     display: flex;
-    margin:auto;
-    margin-top: 400px;
-    justify-content: center;
-    border-radius: 87px;
+    border-radius: 8px;
+    background-color: rgba(136, 206, 247, 0.4);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    gap: 12px;
+    align-items: center;
 }
 
-#logo{
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    border-radius: 50px;
+h1{
+    font-weight: 700; 
+    font-size: 24px;
+    color: #000000;
 }
 
-footer {
-    color: rgb(253, 250, 245);
-    font-weight: 520;
-    margin-top: 360px;
+.menu-content{
+    display: grid;
+    padding: 40px 0px;
+    gap: 30px;
+    margin-top: 6px;
+}
+
+span{
+    margin-bottom: -5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+form{
+    display: grid;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(14, 7, 7, 0.11);
+}
+
+.field-wrapper{
+    border-radius: 8px;
+    padding: 12px 2px;
+    background: #d8d8e7;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px 
+    rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 0px 0px 1px rgba(255, 255, 255, 0.03), inset 0px 1px 0px rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
     text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    background-color: #b6d2ff;
+    padding: 5px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+
+    width: 60%;
+    font-weight: 600;
+    cursor: pointer;
+    margin: auto;
+}
+
+button:hover{
+    background-color: #a3c7f7;
+}
+
+.rodape{
+    display: flex;
+    /*precisa ter um display flex ou grid para usar justify-content*/
+    justify-content: center;
+    margin-top: 18px;
+    font-size: 12px;
 }

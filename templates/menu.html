@@ -4,17 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href="/static/stylesheets/menu.css" rel="stylesheet">
     <title>Weather App</title>
 </head>
 
 <body>
     <section id="menu">
-        <div>
-            <header><img id="logo" src="/static/images/logo.jpg" alt="Application logo"></header>
+        <div class="initial">
+            <header>
+                <h1>Weather App</h1>
+                <img id="logo" src="/static/images/logo.jpg" alt="Application logo">
+            </header>
+        </div>  
+        
+        <div class="menu-content">
+            <form action="" method="post">
+                <span>Enter the city:</span>
+                <div class="field-wrapper">
+                    <input type="text" id="city" name="city" required placeholder="City Name">
+                </div>
+                <button> Search </button>
+            </form> 
         </div>
     </section>
-    <footer>Desenvolvido por Sofia V.</footer>
+    
+    <div class="rodape">
+        <footer>
+            Desenvolvido por Sofia V.
+        </footer>
+    </div>
 </body>
 
-</html>
+</html> 
