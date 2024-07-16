@@ -19,6 +19,7 @@ def get_weather_info(city) -> tuple[str, str, float, float, str]:
         request_dict = request.json()
 
         weather_cond = request_dict['weather'][0]['description']
+        icon = request_dict['weather'][0]['icon']
         temp = request_dict['main']['temp']
         humidity = request_dict['main']['humidity']
         #append in the sheets
@@ -26,7 +27,7 @@ def get_weather_info(city) -> tuple[str, str, float, float, str]:
         #transform to json object
         saveDataToJson(city, weather_cond, temp, humidity, date)
         
-        return(city, weather_cond, temp, humidity, date)
+        return(city, weather_cond, temp, humidity, date, icon)
     
     except requests.exceptions.RequestException:
         return "Erro na conexão com a API", "", 0.0, 0.0, ""

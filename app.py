@@ -17,8 +17,8 @@ def menu():
 @app.route('/result', methods=['GET', 'POST'])
 def result():
     try:
-        city, weather_cond, temp, humidity, date = get_weather_info(session["city"])
-        return render_template("result.html", city=city, weather_cond=weather_cond, temp=temp, humidity=humidity, date=date)
+        city, weather_cond, temp, humidity, date, icon = get_weather_info(session["city"])
+        return render_template("result.html", icon=icon, city=city, weather_cond=weather_cond, temp=temp, humidity=humidity, date=date)
     except:
         return get_weather_info(session["city"])
     
